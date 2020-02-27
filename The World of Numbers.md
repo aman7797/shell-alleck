@@ -38,10 +38,10 @@ Four lines containing the sum (`X+Y`), difference (`X-Y`), product (`X*Y`), and 
 ```bash
 read x
 read y
-echo "$x+$y" | bc -l
-echo "$x-$y" | bc -l
-echo "$x*$y" | bc -l
-printf "%.f\n" `echo "$x/$y" | bc -l`
+echo $((x+y));
+echo $((x-y));
+echo $((x*y));
+echo $((x/y));
 ```
 
 * `read` - reads the contents of a line into a variable
