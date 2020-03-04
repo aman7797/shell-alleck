@@ -35,4 +35,4 @@ sort -r
 ```
 
 * **sort** : used to sort a file, arranging the records in a particular order
-* **-r** : reverse the sort
+* **-r Option**: Sorting In Reverse Order :the -r flag is an option of the sort command which sorts the input file in reverse order i.e. descending order by default

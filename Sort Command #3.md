@@ -63,4 +63,4 @@ Output the text file with the lines reordered in numerically ascending order.
 sort -n
 ```
 
-**-n Option** : To sort a file numerically used –n option. -n option is also predefined in unix as the above options are. This option is used to sort the file with numeric data present inside.
+* **-n Option** : To sort a file numerically used –n option. -n option is also predefined in unix as the above options are. This option is used to sort the file with numeric data present inside.
